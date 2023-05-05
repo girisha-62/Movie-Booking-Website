@@ -1,0 +1,138 @@
+body{
+    background-image: url("BGImage.jpg");
+    background-size: cover;
+    text-align:center;
+    max-width: max-content;
+    margin:0 auto;
+    margin-top: 8%;
+  }
+  h1{
+    color: #CF0A0A;
+    font-family: Brush Script MT,cursive;
+    margin-top: 50px;
+  }
+  h2{
+    color: #EEEEEE;
+    font-family: Brush Script MT,cursive;
+    font-size: 150%;
+  }
+  p{
+    color: #EEEEEE;
+    font-family: Roboto Condensed,sans-serif;
+  }
+  .button {
+    display: inline-block;
+    background-color: #CF0A0A;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 2% 2% 2% 2%;
+    font-family: Brush Script MT,cursive;
+  }
+  .button:hover {
+    background-color: #DC5F00;
+  }
+  a{
+    color: #fff;
+    font-family: Brush Script MT,cursive;
+    margin: 2% 10% 2% 2%;
+  }
+  a:hover{
+    color: #F15A59;
+  }
+  
+
+.seat-map {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+  }
+  
+  .seat {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    border-radius: 50%;
+    background-color: #eee;
+    cursor: pointer;
+  }
+  
+  .available:hover {
+    background-color: #98D8AA;
+  }
+  
+  .booked {
+    background-color: #d9534f;
+    cursor: not-allowed;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  form div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  form div label {
+    margin-bottom: 10px;
+  }
+  
+  form div input {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .form-error {
+    color: red;
+    margin-top: 5px;
+    font-size: 14px;
+  }
+  label{
+    color: #EEEEEE;
+    font-family: Roboto Condensed,sans-serif;
+  }
+  .movieList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .movieList li {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .movieList li h3 {
+    margin-top: 0;
+  }
+  
+  .showtimes {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .showtimes li {
+    display: inline-block;
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  .sh{
+    color: #CF0A0A;
+  }
